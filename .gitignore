@@ -1,0 +1,11 @@
+# Zugangsdaten und lokale Konfiguration duerfen nicht ins Repository.
+.env
+.env.*
+!.env.example
+
+# Lokale Entwicklungsartefakte
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
